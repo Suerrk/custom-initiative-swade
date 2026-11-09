@@ -1,0 +1,49 @@
+.custom-initiative-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 4px 0;
+  width: 100%;
+}
+
+.custom-initiative-toolbar button {
+  flex: 1;
+  min-height: 28px;
+  font-size: var(--font-size-12);
+}
+
+.custom-initiative-toolbar .custom-initiative-config {
+  flex: 0 0 32px;
+}
+
+.custom-initiative-edit {
+  margin-left: 3px;
+  min-width: 24px;
+  min-height: 22px;
+  padding: 1px 4px;
+  line-height: 1;
+}
+
+.custom-initiative-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.custom-initiative-form input {
+  width: 100%;
+}
+
+.custom-initiative-form .notes {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-11);
+}
+
+.custom-initiative-chat h3 {
+  margin-bottom: 6px;
+}
+
+.custom-initiative-chat ol {
+  margin: 0 0 6px;
+}
